@@ -54,8 +54,8 @@ public class ArrayDemo {
 		for(int i=0;i<data.length;i++) {
 			System.out.println("Value is "+data[i]);
 		}
+		sc.close();
 	}
-
 }
 
 
