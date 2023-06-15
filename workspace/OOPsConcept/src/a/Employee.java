@@ -5,6 +5,12 @@ public class Employee {
 	String name;
 	float salary;			// property or instance variable
 	
+	Employee() {		// it is use to do some initialization. 
+		System.out.println("Object created...");
+		id=123;
+		name="Unknown";
+		salary=5000;
+	}
 	// method passing parameter but no return type. 
 	void setValue(int id1, String name1, float salary1) {	// local variable 
 		id =id1;

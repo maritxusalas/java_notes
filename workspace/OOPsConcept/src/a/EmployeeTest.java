@@ -9,6 +9,7 @@ public class EmployeeTest {
 	Employee emp1 = new Employee();
 	Employee emp2 = new Employee();
 	Employee emp3 = new Employee();
+	Employee emp4  =new Employee();
 	emp1.id=100;
 	emp1.name="lex";
 	emp1.salary=12000;
@@ -19,10 +20,13 @@ public class EmployeeTest {
     
     
     emp3.setValue(102, "Lokesh", 15000);
-    
+   
 	emp1.display();
 	emp2.display();
 	emp3.display();
+	emp4.display();
+		
+		
 	}
 
 }
