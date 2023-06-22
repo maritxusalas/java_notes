@@ -4,6 +4,9 @@ public class Operation {
 	void add() {
 		System.out.println(10+20);
 	}
+	void add(long x) {
+		
+	}
 	void add(int x) {
 		System.out.println(x+100);
 	}
