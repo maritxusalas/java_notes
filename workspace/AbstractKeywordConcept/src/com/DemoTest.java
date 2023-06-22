@@ -1,9 +1,6 @@
 package com;
-
 public class DemoTest {
-
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		//Bank bb = new Bank();
 		Hsbc obj1 =new Hsbc();
 		obj1.deposit();
