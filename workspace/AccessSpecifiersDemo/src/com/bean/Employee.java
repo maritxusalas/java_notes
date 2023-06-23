@@ -11,5 +11,10 @@ public void empInfo() {
 	System.out.println(" Name "+name);
 	System.out.println(" Salary "+salary);
 	System.out.println(" Designation "+designation);
+	calSalary();
 }
+private void calSalary() {
+	salary = salary +7000;
+}
+
 }
