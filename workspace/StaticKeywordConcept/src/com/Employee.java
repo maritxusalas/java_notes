@@ -1,6 +1,6 @@
 package com;
 
-public class Employee {
+public class Employee {		// for every class only one static memory 
  String name;
  float salary;				// instance variable 
  static int managerId;		// static variable 
