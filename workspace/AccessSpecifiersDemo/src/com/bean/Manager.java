@@ -7,7 +7,6 @@ public class Manager extends Employee{
 		System.out.println(" Name "+name);
 		System.out.println(" Salary "+salary);
 		System.out.println(" Designation "+designation);
-		empInfo();
 		
 	}
 }
