@@ -14,6 +14,8 @@ public class RuntimeError {
 			//System.out.println(e.getMessage()); // exception message in short 
 			//System.out.println(e.toString()); // display name of exception
 			e.printStackTrace();// display name as well as line of code 
+			System.out.println(e.toString()); //bame of the exception
+			e.getMessage();
 		}
 		System.out.println("Bye...");
 		System.out.println("Bye...");
